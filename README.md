@@ -2,8 +2,6 @@
 
 Lab thực hành lỗ hổng **XXE (XML External Entity)**. Ứng dụng web Java (Jakarta EE Servlet + MySQL) mô phỏng API quản lý tồn kho, cố tình cấu hình parser XML không an toàn để học về XXE.
 
-> ⚠️ Code cố ý chứa lỗ hổng. Chỉ chạy trong lab/localhost, không deploy ra production.
-
 ## Công nghệ
 Java 21 · Jakarta Servlet 6 · MySQL · đóng gói WAR (Maven) · chạy trên Tomcat 10+.
 
